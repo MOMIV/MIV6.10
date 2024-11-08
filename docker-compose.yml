@@ -3,6 +3,7 @@ services:
     image: postgres:17.0
     container_name: db
     environment:
+      POSTGRES_DB: "momotova"
       POSTGRES_PASSWORD: inna
     volumes:
       - pg-data:/var/lib/postgresql/data

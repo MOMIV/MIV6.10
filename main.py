@@ -2,7 +2,7 @@ from psycopg2 import connect
 
 def print_query():
         
-        conn = connect(host='db', port = 5432, dbname = 'postgres',
+        conn = connect(host='db', port = 5432, dbname = 'momotova',
                        user='postgres', password='inna')
         conn.autocommit = True
 
